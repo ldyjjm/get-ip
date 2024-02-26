@@ -11,3 +11,6 @@ exports.getCurrentIp = async (ctx) => {
         ctx.body = []
     }
 }
+exports.home = (ctx) => {
+    ctx.body = '接口ok'
+}
