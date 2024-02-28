@@ -6,8 +6,6 @@ exports.getCurrentIp = async (ctx) => {
         const interfaces = await os.networkInterfaces();
         // 测试
         ctx.body = {
-            type,
-            value: os.networkInterfaces(),
             data: interfaces[type]
         }
     } catch (e) {
