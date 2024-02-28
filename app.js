@@ -12,8 +12,8 @@ app.use(bodyParser());
 app.use(IPRoutes.routes());
 app.use(IPRoutes.allowedMethods());
 
-app.listen(3000, () => {
-    console.log('应用已经启动，http://localhost:3000');
+app.listen(7267, () => {
+    console.log('应用已经启动，http://localhost:7267');
 })
 
 module.exports = app;
